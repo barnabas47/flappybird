@@ -1,7 +1,5 @@
 # Flappy Bird – Pygame Edition
 
-![screenshot](assets/images/bg.png)
-
 Egy modern, reszponzív Flappy Bird-szerű játék Pythonban, Pygame-mel. Saját sprite-ok, rekord- és coin-kezelés, dinamikus ablakméret, platformfüggetlen futás, menü, és szép vizuális effektek.
 
 ## Főbb jellemzők
