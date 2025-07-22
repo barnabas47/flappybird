@@ -1,41 +1,45 @@
-# Flappy Game - Python (Pygame)
+# Flappy Bird – Pygame Edition
 
-This project is a Flappy Bird-szerű játék, Pygame keretrendszerrel.
+![screenshot](assets/images/bg.png)
 
-## Mappastruktúra
+Egy modern, reszponzív Flappy Bird-szerű játék Pythonban, Pygame-mel. Saját sprite-ok, rekord- és coin-kezelés, dinamikus ablakméret, platformfüggetlen futás, menü, és szép vizuális effektek.
 
-- `game.py` - A fő játékfájl
-- `assets/` - Képek, hangok (opcionális)
-- `README.md` - Leírás, futtatási útmutató
+## Főbb jellemzők
+- **Reszponzív**: minden ablakmérethez igazodik
+- **Sprite scaling**: madár, cső, háttér saját képekkel
+- **Pontszám, rekord, coin**: rekord és coin örökre mentve
+- **Random csőgenerálás**: mindig játszható pálya
+- **Menü, újraindítás, kilépés**
+- **Modern, letisztult grafika**
 
-## Futtatás
-
-1. Telepítsd a szükséges csomagokat:
+## Telepítés
+1. Python 3.8+ szükséges
+2. Függőségek telepítése:
    ```bash
-   pip install pygame
+   pip install -r requirements.txt
    ```
-2. Indítsd el a játékot:
+3. Indítás:
    ```bash
    python game.py
    ```
 
-## Főbb funkciók
-- Start menü, újraindítás, kilépés
-- Madár mozgása, gravitáció, ugrás
-- Véletlenszerű csőgenerálás
-- Ütközésdetektálás
-- Pontszámkezelés
-- Grafika
-- (Opcionális) Hangok
+## Irányítás
+- **SPACE** – ugrás / újraindítás
+- **ESC** – kilépés
 
-## Fejlesztési lépések
-1. Projektstruktúra kialakítása
-2. Játékablak létrehozása
-3. Madár karakter programozása
-4. Felhasználói interakció
-5. Csövek generálása
-6. Ütközésfigyelés
-7. Pontszám kezelés
-8. Game over logika
-9. Grafikai tuning
+## Fájlok
+- `game.py` – fő játéklogika
+- `assets/images/` – sprite-ok, háttér
+- `best_score.txt` – rekord és coin mentése
+- `requirements.txt` – függőségek (pygame)
+
+## Képernyőképek
+![játék](assets/images/bird.png)
+
+## Készítette
+barnabas47 – 2025
+
+---
+
+Kellemes játékot!
 10. Hangok hozzáadása
