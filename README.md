@@ -33,11 +33,11 @@ Egy modern, reszponzív Flappy Bird-szerű játék Pythonban, Pygame-mel. Saját
 
 ## Képernyőképek
 ![játék](assets/images/bird.png)
+<img width="1920" height="1133" alt="image" src="https://github.com/user-attachments/assets/64358b9f-9267-4c8a-ab32-3610f6f05809" />
 
 ## Készítette
-barnabas47 – 2025
+Buzás Barnabás – 2025
 
 ---
 
 Kellemes játékot!
-10. Hangok hozzáadása
